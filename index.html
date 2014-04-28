@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Apache Cordova</title>
+        
+        <meta name="description" content="Criação e desenvolvimento de aplicativos multiplataformas com apache Cordova" />
+        <meta name="author" content="Guilherme Berghauser - Torto" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+        <link href="css/impress-demo.css" rel="stylesheet" />
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        
+    </head>
+    <body class="impress-not-supported">
+        <div class="fallback-message">
+            Use um browser descente.
+        </div>
+        <div id="impress">
+            <div id="teste" class="step slide generalrules" data-x="0" data-y="-1500"  >
+                <div class="header">
+                    <img class="logo" src="img/cordova.png" style="margin-left:200px !important; border: 0px !important;"/>
+                </div>
+                <h1 class="textH1" style="font-size:50px; margin-left:150px;margin-top:150px;">Apache Cordova!</h1>
+            </div>
+            <div class="step slide generalrules" data-x="1000" data-y="-1500">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Quem sou EU</h1>
+                </div>
+                <div style="margin-top:-27px; margin-left:0px;">
+                    </br>
+                    <p class="text quemsoueu" style="border-bottom: 2px solid #C6C6C6; margin-bottom: 20px;">Cursando Tecnologia Em Análise E Desenvolvimento De Sistemas - UTFPR - Pato Branco </p>
+                    <p class="text quemsoueu" style="border-bottom: 2px solid #C6C6C6; margin-bottom: 20px;">Desenvolvedor Web e Mobile (Java/Javascript) </p>
+                    <p class="text quemsoueu" style="border-bottom: 2px solid #C6C6C6; margin-bottom: 20px;">Sócio e Fundador da QiLeverage - Softwares Educacionais</p>
+                    <p class="text quemsoueu" style="border-bottom: 2px solid #C6C6C6; margin-bottom: 20px;">Voluntário e membro da Mozilla Brasil</p>
+                    <p class="text quemsoueu" style="border-bottom: 2px solid #C6C6C6; margin-bottom: 20px;">Integrante do Grupo PatoLivre</p>
+                    
+                    <p class="text quemsoueu"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#6BAEFA;">Twitter</span>: tortoyo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#62529C !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important;">Facebook</span>: /tortoyoyo</p>
+                    
+                    <p class="text quemsoueu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:yellow;">Email</span>: qileverage@gmail.com </p>
+                    
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="1000" data-y="1000" data-rotate-y="100">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">História</h1>
+                </div>
+                <div style="margin-top:50px; margin-left:0px;">
+                    </br>
+                    <li>Desenvolvido inicialmente pela empresa Nitobi e chamado de Phonegap</li></br>
+                    <li>Em 2011 Adobe compra o Phonegap da Nitobi </li></br>
+                    <li>Adobe doa o código para <b>Apache Software Foundation</b> (GPL v2.0)</li></br>
+                    <li>Phonegap VS Cordova</li></br>
+                    
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="850" data-y="1000" data-z="-950" data-rotate-y="100">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Suporte OSs</h1>
+                </div>
+                <img src="img/print/versoes.png" style="max-width: 800px;max-height: 413px;margin-left: 41px !important;">
+            </div>
+            <div class="step slide generalrules" data-x="680" data-y="1000" data-z="-1900" data-rotate-y="100">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Requisitos</h1>
+                </div>
+                <div style="margin-top:50px; margin-left:0px;">
+                    </br>
+                    <li>Requisitos</li>
+                    <li style="list-style-type:circle; margin-left: 20px;"> NodeJS </li>
+                    <li style="list-style-type:circle; margin-left: 20px;"> Apache ANT </li>
+                    <li style="list-style-type:circle; margin-left: 20px;"> Sdk's das plataformas </li></br>
+                    <li> Links </li>
+                    <li style="list-style-type:circle; margin-left: 20px;"> NodeJS: <a href="http://nodejs.org/">http://nodejs.org/</a></li>
+                    <li style="list-style-type:circle; margin-left: 20px;"> ANT: <a href="http://ant.apache.org/">http://ant.apache.org/</a></li>
+                    
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="515" data-y="1000" data-z="-2850" data-rotate-y="100">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Criando um projeto</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    
+                    <li> Terminal </li>
+                    <li style="list-style-type:circle; margin-left: 20px;">Instalando Cordova</li>
+                    <div class="custom">
+                        <li> npm install -g cordova</li>
+                    </div>
+                    </br style="margin-top: 1px;">
+                    <li style="list-style-type:circle; margin-left: 20px;">Criando Projeto</li>
+                    <div class="custom">
+                        <li> cordova create palestra br.com.qileverage.palestra Palestra</li>
+                    </div>
+                    </br>
+                    <li style="list-style-type:circle; margin-left: 20px;">Adicionando Plataformas</li>
+                    <div class="custom">
+                        <li> cd palestra </li>
+                        <li> cordova platform add firefoxos </li>
+                        <li> cordova build </li>
+                        <li> cordova run android </li>
+                    </div>
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="370" data-y="1000" data-z="-3795" data-rotate-y="100">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Estrutura de Pastas</h1>
+                </div>
+                
+                <img src="img/print/pastas.png" >
+                </br></br>
+                <div class="row">
+                    <div class="col-xs-6">
+                        
+                        <li>hooks</li>
+                        <li style="list-style-type:circle; margin-left: 20px; font-size: 17pt;"> Arquivos que serão executas na copilação do Cordova </li>
+                    </div>
+                    <div class="col-xs-6">
+                        <li>merges</li>
+                        <li style="list-style-type:circle; margin-left: 20px; font-size: 17pt;"> Arquivos especificos para substituir em cada plataforma </li>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-6">
+                        <li>platforms</li>
+                        <li style="list-style-type:circle; margin-left: 20px; font-size: 17pt;"> Arquivos geradados pelo build separados por platforma </li>
+                    </div>
+                    <div class="col-xs-6">
+                        <li>plugins</li>
+                        <li style="list-style-type:circle; margin-left: 20px; font-size: 17pt;"> Arquivos dos plugins adicionados </li>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-6">
+                        <li>www</li>
+                        <li style="list-style-type:circle; margin-left: 20px; font-size: 17pt;"> Arquivos que serão alterados no projeto </li>
+                    </div>
+                    <div class="col-xs-6">
+                        <li>config.xml</li>
+                        <li style="list-style-type:circle; margin-left: 20px; font-size: 17pt;"> Arquivos que serão alterados no projeto </li>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="step slide generalrules" data-x="800" data-y="4500" data-z="-1900" data-rotate-y="200">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Frameworks - User Interface</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    
+                    <li> Twitter Bootstrap </li></br>
+                    <img src="img/print/bootstrap.png" >
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="-200" data-y="4500" data-z="-1570" data-rotate-y="200">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Frameworks - User Interface</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    
+                    <li> Ionic </li></br>
+                    <img src="img/print/ionic.png" >
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="-1200" data-y="4500" data-z="-1230" data-rotate-y="200">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Frameworks - User Interface</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    
+                    <li> Sencha </li></br>
+                    <img src="img/print/sencha.png" >
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="-2180" data-y="4500" data-z="-900" data-rotate-y="200">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Frameworks - User Interface</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    
+                    <li> Kendo UI </li></br>
+                    <img src="img/print/kendoUi.png" >
+                </div>
+            </div>
+            
+            <div class="step slide generalrules" data-x="-3180" data-y="4500" data-z="-550" data-rotate-y="200">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Frameworks - User Interface</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    
+                    <li> Appgyver </li></br>
+                    <img src="img/print/appgyver.png" >
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="800" data-y="8500" data-z="-1900" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    </br>
+                    <li>Footer Fixo Rodapé</li>
+                    <div class="row" style="margin-left: 10px;">
+                        <div class="col-xs-6">
+                            
+                            <li style="list-style-type:circle;margin-top: 20px; margin-left: 20px;">Footer com style:</li>
+                            <p style="margin-top: 10px; margin-left: 20px;">positon: fixed;</p>
+                            <p style=" margin-left: 20px;"> bottom: 0;</p>
+                            <p style=" margin-left: 20px;">left: 0;</p>
+                            </br>
+                            <p style="color: red !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 20px; margin-top: -21px;">Android 2.3 e Windows Phone não fixam o footer no rodapé.</p>
+                        </div>
+                        <div class="col-xs-6 center" >
+                            <img src="img/erros/footer.png" style="margin-top: -35px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="1600" data-y="8500" data-z="-2500" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    </br>
+                    <li>Footer Fixo Rodapé</li>
+                    <div class="row" style="margin-left: 10px;">
+                        <div class="col-xs-12">
+                            </br>
+                            <p>Use o paramentro do <b>bootstrap<b> "nav-bar-fixed-bottom" </p>
+                            <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: left; padding: 20px; font-size: 18pt;">
+                            <span style="color: green;">&lt;div </span> class="<span style="color: #F5A12C;">navbar navbar-fixed-bottom</span>"<span style="color: green;"> ></span></br>
+                            <span style="padding-left: 30px;"><span style="color: green;">&lt;div</span> class="<span style="color: #F5A12C;">navbar-inner</span>"<span style="color: green;"> ></br><span style="color: black;padding-left: 60px;">Codigo Footer ...</span></span></span>
+                            </br>
+                            <span style="padding-left: 30px;"><span style="color: green;">&lt;/div&gt;</br>&lt;/div&gt;</span></span>
+                            </p>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="step slide generalrules" data-x="2400" data-y="8500" data-z="-3150" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                    </br>
+                    <li>Delay no click - touchstart/click</li>
+                    <div class="row" style="margin-left: 10px;">
+                        <div class="col-xs-12">
+                            </br>
+                            <p>No HTML5 existe um bug que demora em torno de 300ms entre o tocar na tela a executar a ação.<p>
+                            <p style="text-align: center; margin-top: 20px; color: #6374F2;text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important;"><b>FastClick</b></p>
+                            <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 20px; margin-top: 0px; font-size: 18pt;">FastClick.attach(<span style="color: rgba(65, 131, 196, 0.8);">document</span>.body);</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step slide generalrules" data-x="3170" data-y="8500" data-z="-3750" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   
+                    <li>touchstart ou click</li>
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12" style="padding: 0px;">
+                            
+                            <p style="color: red !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 20px; margin-top: 0px; ">Window Phone não reconhece touchstart, Android e Firefox OS reconhece ambos os eventos.</p>
+
+                            <li style="list-style-type:circle; margin-left: 20px;margin-bottom:10px; font-size: 19pt;"> Execute sempre um único evento </li>
+
+                            <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 20px; margin-top: 0px; font-size: 18pt;">
+                                <span style="color: red;text-decoration: line-through; ">$('#botao').on('click touchstart', function(){}); </span></br></br>
+                                <span>$(<span style="color:#D14">'#botao'</span>).on('touchstart', function(){  CERTO  });</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="step slide generalrules" data-x="3930" data-y="8500" data-z="-4410" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   </br>
+                    <li>Texto Responsivo</li>
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12" style="padding: 0px;">
+                            </br>
+                            <p class="text-center"> <img src="img/print/fitText.png" style="height: 155px;"></p></br>
+
+                            <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 20px; margin-top: 0px; font-size: 18pt;">
+                                
+                                <span>$(<span style="color:#D14">'#texto'</span>).fitText();</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step slide generalrules" data-x="4730" data-y="8500" data-z="-5090" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   </br>
+                    <li><b>EVITE</b> jQuery</li>
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12" style="padding: 0px;">
+                            </br>
+                            <p class="text-center"> <img src="img/print/jqueryNo.png" style="height: 155px;"></p></br>
+
+                            <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 20px; margin-top: 0px; ">
+                                
+                                <a href="http://youmightnotneedjquery.com/">http://youmightnotneedjquery.com/</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step slide generalrules" data-x="5530" data-y="8500" data-z="-5690" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   
+                    <li><b>Ajax</b></li>
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12" style="padding: 0px;">
+                                                        
+                            <p style="margin-top: 20px;">Firefox OS só executa a requisição se passarmos o argumento "mozSystem".</p></br>
+                            <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 10px; margin-top: 0px; font-size: 18pt;">
+                                
+                                <span style="text-aling: center;">var xhr = <b>new</b> XMLHttpRequest({<span style="color:#D14">mozSystem</span> : <span style="color:rgba(65, 131, 196, 0.8)">true</span>});</span>
+                            </p>
+                        </br>
+                                <p>É preciso permitir requisições XHR no manifest do Firefox Os</p>
+                             <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 10px; margin-top: 0px; "><span style="color:#D14">"permissions"</span> : {
+    <span style="color:#D14">"systemXHR"</span> : {}
+  },
+ </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step slide generalrules" data-x="6330" data-y="8500" data-z="-6290" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   </br>
+                    <li><b>Banco de Dados</b></li>
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12" style="padding: 0px;">
+                           <li style="margin-left: 20px; margin-top: 20px;">localStorage / sessionStorage</li>
+
+                            <li style="list-style-type:circle; margin-left: 40px;margin-bottom:20px; font-size: 17pt;">Roda em todos os sistemas, porém MUITO lento.</li>
+
+
+                           <li>WebSql</li>
+                           <li style="list-style-type:circle; margin-left: 40px;margin-bottom:20px; font-size: 17pt;">Roda em iOS e Android, rápido mais depreciado pela W3C.</li>
+
+                           <li>IndexedDB <span style="color: red"><3</span></li>
+                           <li style="list-style-type:circle; margin-left: 40px;margin-bottom:10px; font-size: 17pt;">Banco NoSql, orientado a documentos, rápido mas roda apenas no Firefox OS e Windows Phone</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step slide generalrules" data-x="7130" data-y="8500" data-z="-6890" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   </br>
+                    <li><b>Facebook Polyfill</b></li>
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12" style="padding: 0px;">
+                           <p style="margin-top: 20px;">Faz a conversão de um banco WebSql para IndexedDb</p></br>
+
+                           <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 0px; margin-top: 0px; font-size: 18pt;">
+                            <span style="color: green;">&lt;script </span> type="<span style="color: #F5A12C;">text/javascript</span>" src="<span style="color: #F5A12C;">indexedDB.polyfill.js</span>"><span style="color: green;">&lt;/script></span>
+                           </p>
+
+                           <p style="color: black !important; text-shadow: 0px 0px 1px rgba(255, 255, 255, 1) !important; background: white; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;text-align: center; padding: 0px; margin-top: 0px; font-size: 18pt;">
+                            <span style="color:rgba(65, 131, 196, 0.8); ">window</span>.indexedDB = { <span style="color:#D14">polyfill</span> : <span style="color:rgba(65, 131, 196, 0.8)">true</span> };
+                           </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step slide generalrules" data-x="7930" data-y="8500" data-z="-7490" data-rotate-y="400">
+                <div class="header">
+                    <h1 class="textH1" style="font-size:50px;">Problemas Enfrentados</h1>
+                </div>
+                <div style="margin-top:-14px; margin-left:0px;">
+                   
+                    <div class="row" style="margin-left: 5px;">
+                        <div class="col-xs-12 center" >
+                           <h1 style="margin-top: 22%; font-size: 40pt;">Fim, obrigado... <p style="color: red;">Perguntas?</p></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="hint">
+            <p>Bem Vindos Amigos</p>
+        </div>
+        <script>
+        if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+        </script>
+        <script src="js/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
